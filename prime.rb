@@ -11,7 +11,7 @@ def prime?(num)
     num_range.none? do | i | 
       num % i == 0
       puts num_range[i]
-      binding.pry
+      #binding.pry
     end
   else 
     return false
