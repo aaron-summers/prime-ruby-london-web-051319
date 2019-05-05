@@ -8,6 +8,7 @@ def prime?(num)
     #num_range = (2..num-1).to_a
     num_range.none? do | i | 
       num % i == 0
+      puts num_range[i]
     end
   else 
     return false
